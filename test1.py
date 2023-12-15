@@ -44,16 +44,6 @@ mydb = pymysql.connect(
 
 
 
-
-# #Connecting Database
-
-# mydb = pymysql.connect(
-#     host= "auxiliary.cdhflpcz30nc.ap-south-1.rds.amazonaws.com",
-#     user= "readonly",
-#     password= "6MYvS7wbuhznqgMq",
-#     database= "analytics_writedb"
-# )
-
 query_1 = """ 
 
 WITH cte AS
